@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip-cleanup: true
-  domain:
+  domain: http://warm-partner.surge.sh
   project: ./build/
 
 on:
